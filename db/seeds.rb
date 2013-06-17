@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+Proverb.create(name: "Deru kui wa utareru",  meaning: "If you stand out, you will be subject to criticism")

@@ -1,0 +1,17 @@
+!!!5
+%html
+ %head(lang="en-US")
+  %title "諺　ー kotowaza
+  %meta(charset="UTF-8")
+   = csrf_meta_tag
+   = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true 
+   = javascript_include_tag "application", "data-turbolinks-track" => true 
+ %body
+  %div(class="container-narrow")
+   %div(class="masthead")
+    %ul(class="nav nav-pills pull-right")
+     %li= link_to  "about"
+     %li= link_to  "contact"
+    %h3= "諺"
+    %hr
+     =yield
